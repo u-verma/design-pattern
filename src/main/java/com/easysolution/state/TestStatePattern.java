@@ -8,7 +8,7 @@ public class TestStatePattern {
         canvas.mouseClose();
 
         Canvas canvas2 =  new Canvas(new SelectionTool());
-        canvas.mouseUp();
-        canvas.mouseClose();
+        canvas2.mouseUp();
+        canvas2.mouseClose();
     }
 }
